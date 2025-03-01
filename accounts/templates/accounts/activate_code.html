@@ -30,6 +30,7 @@
                         <h1 class="">Activate Code</h1>
                         <p class="signup-link register">Already have an account? <a href="/accounts/signup">Register</a></p>
                         <form class="text-left" method="post">
+                            {% csrf_token %}
                             <div class="form">
                                 {% bootstrap_form form %}
 
