@@ -42,8 +42,11 @@ INSTALLED_APPS = [
 
     # my package
     "django_bootstrap5",
+    "taggit",
+    'django_summernote',
 
     # my apps
+    'blog',
 
 ]
 
